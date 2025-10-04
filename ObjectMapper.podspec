@@ -6,9 +6,9 @@ Pod::Spec.new do |s|
   # bundle for the privacy manifest.
   s.cocoapods_version = '>= 1.12.0'
   s.summary = 'JSON Object mapping written in Swift'
-  s.homepage = 'https://github.com/tristanhimmelman/ObjectMapper'
+  s.homepage = 'https://github.com/loilee/UBObjectMapper'
   s.authors = { 'Tristan Himmelman' => 'tristanhimmelman@gmail.com' }
-  s.source = { :git => 'https://github.com/tristanhimmelman/ObjectMapper.git', :tag => s.version.to_s }
+  s.source = { :git => 'https://github.com/loilee/UBObjectMapper.git', :tag => s.version.to_s }
   s.resource_bundle = {
     "Privacy" => "Sources/Resources/PrivacyInfo.xcprivacy"
   }
