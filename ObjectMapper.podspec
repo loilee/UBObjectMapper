@@ -22,5 +22,5 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.ios.vendored_frameworks = 'xcframeworks/ObjectMapper.xcframework'
 
-  # s.source_files = 'Sources/**/*.swift'
+  s.source_files = 'Sources/**/*.swift'
 end
